@@ -1,0 +1,17 @@
+Crucifixion
+Tintoretto
+Default Object 10 10 100 100
+
+The Garden Of Earthly Delights
+Bosh
+Elephant 85 203 47 40
+Giraffe 220 204 36 88
+Two legs dog 191 256 27 32
+Two ears carrying a knife 1033 183 68 57
+A strange band atop a face 1109 190 73 76
+A face below a strange band 1138 268 37 23
+
+The Tower Of Babel
+Brugel
+Default Object 10 10 100 100
+fi

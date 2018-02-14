@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/virginia/src/find-in-art/android/findinpainting/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/881fd8f4be731dc5a6d6c52383885b91/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f0e9434a87193474443709cb653cf1e3/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
