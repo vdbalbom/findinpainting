@@ -1,11 +1,11 @@
 # Find in Painting
 Kind of Where's Wally, but with paintings... and no Wally. :)
 
-<img src="sample1.png" style="width: 5%; margin: 5px;"/>
-<img src="sample2.png" style="width: 5%; margin: 5px;"/>
-<img src="sample3.png" style="width: 5%; margin: 5px;"/>
-<img src="sample4.png" style="width: 5%; margin: 5px;"/>
-<img src="sample5.png" style="width: 5%; margin: 5px;"/>
+![alt text](sample1.png)
+![alt text](sample2.png)
+![alt text](sample3.png)
+![alt text](sample4.png)
+![alt text](sample5.png)
 
 ## TO DO List
 
