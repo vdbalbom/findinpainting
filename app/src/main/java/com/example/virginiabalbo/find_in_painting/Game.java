@@ -1,8 +1,15 @@
 package com.example.virginiabalbo.find_in_painting;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Point;
+import android.graphics.drawable.BitmapDrawable;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
+import android.support.design.widget.Snackbar;
 import android.util.TypedValue;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
@@ -15,7 +22,10 @@ import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.example.virginiabalbo.find_in_painting.dao.DAO;
 import com.example.virginiabalbo.find_in_painting.domain.HiddenObject;
@@ -26,13 +36,12 @@ import java.util.List;
 public class Game extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private static final long DOUBLE_CLICK_TIME_DELTA = 200; //milliseconds
-
     private Painting selectedPainting;
     private Menu checklist;
     private RelativeLayout paintingArea;
-    long lastClickTime = 0;
+    private int TAB_HEIGHT = 216;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,48 +69,77 @@ public class Game extends AppCompatActivity
         createPainting();
     }
 
-    public void zoomOut(){
-        Intent intent = new Intent(this, ZoomOut.class);
-        intent.putExtra("src", this.selectedPainting.getImageSrc());
-        startActivity(intent);
-    }
-
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public void createPainting(){
-        this.paintingArea.setBackgroundResource(getResources().getIdentifier(
-                this.selectedPainting.getImageSrc(), null, getPackageName()));
+        Display display = getWindowManager().getDefaultDisplay();
+        Point size = new Point();
+        display.getSize(size);
+        int imageID = getResources().getIdentifier(this.selectedPainting.getImageSrc(), null, getPackageName());
+        BitmapDrawable bd = (BitmapDrawable) getResources().getDrawable(imageID);
+        int height = bd.getBitmap().getHeight();
+        int width = bd.getBitmap().getWidth();
+        this.paintingArea.setBackground(bd);
+        if (size.x*height/width + TAB_HEIGHT <= size.y) {
+            this.paintingArea.getLayoutParams().width = size.x;
+            this.paintingArea.getLayoutParams().height = size.x*height/width;
 
-        this.paintingArea.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v) {
-                long clickTime = System.currentTimeMillis();
-                if (clickTime - lastClickTime < DOUBLE_CLICK_TIME_DELTA){
-                    zoomOut();
-                    lastClickTime = 0;
-                }
-                lastClickTime = clickTime;
-            }
-        });
+        } else {
+            System.out.println("HEEEEY");
+            this.paintingArea.getLayoutParams().height = size.y - TAB_HEIGHT;
+            this.paintingArea.getLayoutParams().width = (size.y - TAB_HEIGHT)*width/height;
 
-
+        }
+        findViewById(R.id.zoomLayout).setBackgroundColor(Color.BLACK);
+        findViewById(R.id.zoomLayout).getLayoutParams().width = size.x;
+        findViewById(R.id.zoomLayout).getLayoutParams().height = size.y;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public void createHiddenObjects(){
+        Display display = getWindowManager().getDefaultDisplay();
+        Point size = new Point();
+        display.getSize(size);
+        int imageID = getResources().getIdentifier(this.selectedPainting.getImageSrc(), null, getPackageName());
+        BitmapDrawable bd = (BitmapDrawable) getResources().getDrawable(imageID);
+        int height = bd.getBitmap().getHeight();
+        int width = bd.getBitmap().getWidth();
+
         // get hidden objects of the selectedPainting
         List<HiddenObject> hiddenObjects = getHiddenObjects();
 
         // Iterate hidden objects and add then to the painting area
         for(int i = 0; i < hiddenObjects.size(); i++){
             HiddenObject obj= hiddenObjects.get(i);
+
             Button button = new Button(this);
-            button.setLayoutParams(params(obj.getWidth(), obj.getHeight(), obj.getXPosition(), obj.getYPosition()));
-            button.setTag(obj.getId());
-            button.setBackgroundResource(transparent());
-            button.setOnLongClickListener(new View.OnLongClickListener() {
-                @Override
-                public boolean onLongClick(View view) {
-                    findHiddenObject(view);
-                    return true;
-                }
-            });
+            if (size.x*height/width + TAB_HEIGHT <= size.y) {
+                button.setLayoutParams(params(obj.getWidth()*size.x/width, obj.getHeight()*size.x/width, obj.getXPosition()*size.x/width, obj.getYPosition()*size.x/width));
+            } else {
+                button.setLayoutParams(params(obj.getWidth()*(size.y - TAB_HEIGHT)/height, obj.getHeight()*(size.y - TAB_HEIGHT)/height, obj.getXPosition()*(size.y - TAB_HEIGHT)/height, obj.getYPosition()*(size.y - TAB_HEIGHT)/height));
+            }
+            button.setTag(obj);
+            button.setStateListAnimator(null);
+            if (obj.isChecked()){
+                button.setBackground(getDrawable(R.drawable.circulo_feio));
+            } else {
+                button.setBackground(null);
+                button.setOnLongClickListener(new View.OnLongClickListener() {
+                    @Override
+                    public boolean onLongClick(View view) {
+                        float h = view.getHeight();
+                        float w = view.getHeight();
+                        float zoom = ((ZoomView) findViewById(R.id.zoom)).zoom;
+                        if (h*w*zoom > 2000 || zoom > 5) {
+                            view.setBackground(getDrawable(R.drawable.circulo_feio));
+                            view.setOnLongClickListener(null);
+                            findHiddenObject(view);
+                            return true;
+                        }
+                        return false;
+
+                    }
+                });
+            }
 
             this.paintingArea.addView(button);
         }
@@ -114,12 +152,6 @@ public class Game extends AppCompatActivity
         return p;
     }
 
-    private int transparent(){
-        //  To set button items transparent:
-        TypedValue outValue = new TypedValue();
-        this.getTheme().resolveAttribute(android.R.attr.selectableItemBackground, outValue, true);
-        return outValue.resourceId;
-    }
 
     public void createChecklist(){
         // get hidden objects of the selectedPainting
@@ -152,7 +184,13 @@ public class Game extends AppCompatActivity
     }
 
     public void findHiddenObject(View view) {
-        int hiddenObjectId = (int) view.getTag();
+        HiddenObject obj = (HiddenObject) view.getTag();
+        Snackbar mySnackbar = Snackbar.make(view, obj.getDescription(), 2500);
+        mySnackbar.getView().setBackgroundResource(R.drawable.paper);
+        TextView tv = mySnackbar.getView().findViewById(android.support.design.R.id.snackbar_text);
+        tv.setTextColor(Color.BLACK);
+        mySnackbar.show();
+        int hiddenObjectId = (int) obj.getId();
         DAO db = new DAO(this);
         db.checkHiddenObject(hiddenObjectId);
         db.close();

@@ -4,7 +4,7 @@
             "outputFile": "/home/virginia/src/find-in-art/android/findinpainting/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/881fd8f4be731dc5a6d6c52383885b91/res/values-large-v4/values-large-v4.xml",
+                    "source": "/home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/65282472f4178b34c1a6cd43ebc35e2c/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

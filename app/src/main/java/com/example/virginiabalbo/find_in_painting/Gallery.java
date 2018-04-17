@@ -55,7 +55,7 @@ public class Gallery{
     }
 
     private static void addHiddenObject(String line, Integer paintingId, Context context){
-        String regex = "([a-zA-Z0-9\\s]+) ([0-9]+) ([0-9]+) ([0-9]+) ([0-9]+)";
+        String regex = "(.+) ([0-9]+) ([0-9]+) ([0-9]+) ([0-9]+)";
         Matcher m = Pattern.compile(regex).matcher(line);
         m.find();
         String description = m.group( 1 );

@@ -1,4 +1,4 @@
-#Wed Feb 14 13:44:05 BRST 2018
+#Mon Apr 16 21:19:11 BRT 2018
 base.0=/home/virginia/src/find-in-art/android/findinpainting/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,7 +1,3 @@
-Crucifixion
-Tintoretto
-Default Object 10 10 100 100
-
 The Garden Of Earthly Delights
 Bosh
 Elephant 85 203 47 40
@@ -14,4 +10,31 @@ A face below a strange band 1138 268 37 23
 The Tower Of Babel
 Brugel
 Default Object 10 10 100 100
+
+Crucifixion
+Jacopo Tintoretto
+Flag of the Roman Empire 800 290 75 75
+A guy with a feathered hat 2146 345 90 90
+Another guy with a feathered hat 2366 338 89 98
+Yet another guy with a feathered hat but riding a horse 630 367 121 136
+A monolith 551 153 76 183
+A dog 2137 815 154 169
+Some guy holding a bowl 1115 596 176 155
+A dromedary 345 186 125 80
+A helmet and sword 1821 855 92 147
+A pair of pliers 600 1069 122 61
+
+The Death of Nelson
+Daniel Maclise
+A jug and glass 2317 797 227 158
+A guy looking as a bezel 558 284 212 148
+Some guy carrying a bucket 2324 347 202 310
+Set of cannon tools (wormer, rammer and sponge) 1185 846 295 128
+Some guy holding a wormer 2184 304 136 163
+A guy reloading his musketeer 1224 266 133 287
+Some guy holding a cannon ball 3565 333 174 190
+Two guys weirdly gossiping 773 331 138 118
+A peg-legged guy 2529 596 141 124
+A pouch with a sun 1401 626 114 95
+Some guy with a keg and a cup 262 470 214 184
 fi

@@ -1,70 +1,70 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-29:12
-MERGED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/4ab5f249c2f8ba4cd9092da12b303a89/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/881fd8f4be731dc5a6d6c52383885b91/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/virginia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5da0148233a99b0f54601a779ed2f3fb/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4de0c041b6d02c0216145b568107cec1/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6af6514aa2618f92b0014fdca1f1058b/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d0e68efd37472cd16f108c7b1f5f9bf3/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7d1b4945c3c6cd73df91ba657ccbbcda/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f492a771e10b05c9b2ea7aabc1f3262a/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757eeb7e36f1647f94bddd32f41a62ea/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/43c13eaca7b269889494ddb7eaec481b/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffaa45bf6450d9f6cca208d73824ca4d/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a0dc16c5bb1abc8d61cfa42322d833a6/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f0e9434a87193474443709cb653cf1e3/AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5992c43e086efac4a2936477495f035d/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/525b4296b7346a22cfe69d4f4e930897/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/65282472f4178b34c1a6cd43ebc35e2c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/virginia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/79c305e7703272798fdd34f8425de16a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/a0af23f6d9f244f1e9954aafc206358b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08feea13ccc86993bbeb315e218b6a41/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5275710801b88cd52afed9b31082f6a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/01fe69aba4944e2639d4827c2a9fc38a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/506ccb5b231228d01846de94b374c853/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd08fa3e3309a1aa197a9ac72cdc90f8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/df827b30a368d1d6d3673e46f02ec54c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e80c2c4c27ca5c40468996b072e87549/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/aa4022ded48791f343b7fdd8221bd750/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/72642dc32c282a4854af90ba12d3c6b5/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/de4f98072f3c5d4a7b76a0f2107f343a/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:3:5-57
 		INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
 		INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
-		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
-		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:5:5-27:19
-MERGED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/4ab5f249c2f8ba4cd9092da12b303a89/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/4ab5f249c2f8ba4cd9092da12b303a89/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/881fd8f4be731dc5a6d6c52383885b91/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/881fd8f4be731dc5a6d6c52383885b91/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/virginia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5da0148233a99b0f54601a779ed2f3fb/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/virginia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5da0148233a99b0f54601a779ed2f3fb/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4de0c041b6d02c0216145b568107cec1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4de0c041b6d02c0216145b568107cec1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6af6514aa2618f92b0014fdca1f1058b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6af6514aa2618f92b0014fdca1f1058b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d0e68efd37472cd16f108c7b1f5f9bf3/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d0e68efd37472cd16f108c7b1f5f9bf3/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7d1b4945c3c6cd73df91ba657ccbbcda/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7d1b4945c3c6cd73df91ba657ccbbcda/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f492a771e10b05c9b2ea7aabc1f3262a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f492a771e10b05c9b2ea7aabc1f3262a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757eeb7e36f1647f94bddd32f41a62ea/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757eeb7e36f1647f94bddd32f41a62ea/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/43c13eaca7b269889494ddb7eaec481b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/43c13eaca7b269889494ddb7eaec481b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffaa45bf6450d9f6cca208d73824ca4d/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffaa45bf6450d9f6cca208d73824ca4d/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a0dc16c5bb1abc8d61cfa42322d833a6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a0dc16c5bb1abc8d61cfa42322d833a6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f0e9434a87193474443709cb653cf1e3/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f0e9434a87193474443709cb653cf1e3/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5992c43e086efac4a2936477495f035d/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5992c43e086efac4a2936477495f035d/AndroidManifest.xml:24:5-28:19
+ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:5:5-26:19
+MERGED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/525b4296b7346a22cfe69d4f4e930897/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/525b4296b7346a22cfe69d4f4e930897/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/65282472f4178b34c1a6cd43ebc35e2c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/65282472f4178b34c1a6cd43ebc35e2c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/virginia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/79c305e7703272798fdd34f8425de16a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/virginia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/79c305e7703272798fdd34f8425de16a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/a0af23f6d9f244f1e9954aafc206358b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/a0af23f6d9f244f1e9954aafc206358b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08feea13ccc86993bbeb315e218b6a41/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08feea13ccc86993bbeb315e218b6a41/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5275710801b88cd52afed9b31082f6a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5275710801b88cd52afed9b31082f6a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/01fe69aba4944e2639d4827c2a9fc38a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/01fe69aba4944e2639d4827c2a9fc38a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/506ccb5b231228d01846de94b374c853/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/506ccb5b231228d01846de94b374c853/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd08fa3e3309a1aa197a9ac72cdc90f8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd08fa3e3309a1aa197a9ac72cdc90f8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/df827b30a368d1d6d3673e46f02ec54c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/df827b30a368d1d6d3673e46f02ec54c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e80c2c4c27ca5c40468996b072e87549/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e80c2c4c27ca5c40468996b072e87549/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/aa4022ded48791f343b7fdd8221bd750/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/aa4022ded48791f343b7fdd8221bd750/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/72642dc32c282a4854af90ba12d3c6b5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/72642dc32c282a4854af90ba12d3c6b5/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/de4f98072f3c5d4a7b76a0f2107f343a/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/de4f98072f3c5d4a7b76a0f2107f343a/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
 		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -103,46 +103,42 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
 		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:23:27-74
-activity#com.example.virginiabalbo.find_in_painting.ZoomOut
-ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:26:9-54
-	android:name
-		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml:26:19-42
 uses-sdk
 INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
 INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/4ab5f249c2f8ba4cd9092da12b303a89/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/4ab5f249c2f8ba4cd9092da12b303a89/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/881fd8f4be731dc5a6d6c52383885b91/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/881fd8f4be731dc5a6d6c52383885b91/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/virginia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5da0148233a99b0f54601a779ed2f3fb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/virginia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5da0148233a99b0f54601a779ed2f3fb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4de0c041b6d02c0216145b568107cec1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4de0c041b6d02c0216145b568107cec1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6af6514aa2618f92b0014fdca1f1058b/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6af6514aa2618f92b0014fdca1f1058b/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d0e68efd37472cd16f108c7b1f5f9bf3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d0e68efd37472cd16f108c7b1f5f9bf3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7d1b4945c3c6cd73df91ba657ccbbcda/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7d1b4945c3c6cd73df91ba657ccbbcda/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f492a771e10b05c9b2ea7aabc1f3262a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f492a771e10b05c9b2ea7aabc1f3262a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757eeb7e36f1647f94bddd32f41a62ea/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757eeb7e36f1647f94bddd32f41a62ea/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/43c13eaca7b269889494ddb7eaec481b/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/43c13eaca7b269889494ddb7eaec481b/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffaa45bf6450d9f6cca208d73824ca4d/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffaa45bf6450d9f6cca208d73824ca4d/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a0dc16c5bb1abc8d61cfa42322d833a6/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a0dc16c5bb1abc8d61cfa42322d833a6/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f0e9434a87193474443709cb653cf1e3/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f0e9434a87193474443709cb653cf1e3/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5992c43e086efac4a2936477495f035d/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5992c43e086efac4a2936477495f035d/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/525b4296b7346a22cfe69d4f4e930897/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/525b4296b7346a22cfe69d4f4e930897/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/65282472f4178b34c1a6cd43ebc35e2c/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/65282472f4178b34c1a6cd43ebc35e2c/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/virginia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/79c305e7703272798fdd34f8425de16a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/virginia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/79c305e7703272798fdd34f8425de16a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/a0af23f6d9f244f1e9954aafc206358b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/a0af23f6d9f244f1e9954aafc206358b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08feea13ccc86993bbeb315e218b6a41/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08feea13ccc86993bbeb315e218b6a41/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5275710801b88cd52afed9b31082f6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5275710801b88cd52afed9b31082f6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/01fe69aba4944e2639d4827c2a9fc38a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/01fe69aba4944e2639d4827c2a9fc38a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/506ccb5b231228d01846de94b374c853/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/506ccb5b231228d01846de94b374c853/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd08fa3e3309a1aa197a9ac72cdc90f8/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd08fa3e3309a1aa197a9ac72cdc90f8/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/df827b30a368d1d6d3673e46f02ec54c/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/df827b30a368d1d6d3673e46f02ec54c/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e80c2c4c27ca5c40468996b072e87549/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e80c2c4c27ca5c40468996b072e87549/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/aa4022ded48791f343b7fdd8221bd750/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/aa4022ded48791f343b7fdd8221bd750/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/72642dc32c282a4854af90ba12d3c6b5/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/72642dc32c282a4854af90ba12d3c6b5/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/de4f98072f3c5d4a7b76a0f2107f343a/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/de4f98072f3c5d4a7b76a0f2107f343a/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
 INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/4ab5f249c2f8ba4cd9092da12b303a89/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/525b4296b7346a22cfe69d4f4e930897/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
 		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
@@ -152,36 +148,36 @@ INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main
 		ADDED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
 		INJECTED from /home/virginia/src/find-in-art/android/findinpainting/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/4ab5f249c2f8ba4cd9092da12b303a89/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/881fd8f4be731dc5a6d6c52383885b91/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/881fd8f4be731dc5a6d6c52383885b91/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4de0c041b6d02c0216145b568107cec1/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4de0c041b6d02c0216145b568107cec1/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6af6514aa2618f92b0014fdca1f1058b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6af6514aa2618f92b0014fdca1f1058b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d0e68efd37472cd16f108c7b1f5f9bf3/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d0e68efd37472cd16f108c7b1f5f9bf3/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7d1b4945c3c6cd73df91ba657ccbbcda/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7d1b4945c3c6cd73df91ba657ccbbcda/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f492a771e10b05c9b2ea7aabc1f3262a/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f492a771e10b05c9b2ea7aabc1f3262a/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757eeb7e36f1647f94bddd32f41a62ea/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757eeb7e36f1647f94bddd32f41a62ea/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/43c13eaca7b269889494ddb7eaec481b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/43c13eaca7b269889494ddb7eaec481b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffaa45bf6450d9f6cca208d73824ca4d/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffaa45bf6450d9f6cca208d73824ca4d/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a0dc16c5bb1abc8d61cfa42322d833a6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a0dc16c5bb1abc8d61cfa42322d833a6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f0e9434a87193474443709cb653cf1e3/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f0e9434a87193474443709cb653cf1e3/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/525b4296b7346a22cfe69d4f4e930897/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/65282472f4178b34c1a6cd43ebc35e2c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/65282472f4178b34c1a6cd43ebc35e2c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/a0af23f6d9f244f1e9954aafc206358b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/a0af23f6d9f244f1e9954aafc206358b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08feea13ccc86993bbeb315e218b6a41/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08feea13ccc86993bbeb315e218b6a41/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5275710801b88cd52afed9b31082f6a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5275710801b88cd52afed9b31082f6a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/01fe69aba4944e2639d4827c2a9fc38a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/01fe69aba4944e2639d4827c2a9fc38a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/506ccb5b231228d01846de94b374c853/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/506ccb5b231228d01846de94b374c853/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd08fa3e3309a1aa197a9ac72cdc90f8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cd08fa3e3309a1aa197a9ac72cdc90f8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/df827b30a368d1d6d3673e46f02ec54c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/df827b30a368d1d6d3673e46f02ec54c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e80c2c4c27ca5c40468996b072e87549/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e80c2c4c27ca5c40468996b072e87549/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/aa4022ded48791f343b7fdd8221bd750/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/aa4022ded48791f343b7fdd8221bd750/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/72642dc32c282a4854af90ba12d3c6b5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/72642dc32c282a4854af90ba12d3c6b5/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/4ab5f249c2f8ba4cd9092da12b303a89/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/525b4296b7346a22cfe69d4f4e930897/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/4ab5f249c2f8ba4cd9092da12b303a89/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/525b4296b7346a22cfe69d4f4e930897/AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5992c43e086efac4a2936477495f035d/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/de4f98072f3c5d4a7b76a0f2107f343a/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5992c43e086efac4a2936477495f035d/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/de4f98072f3c5d4a7b76a0f2107f343a/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5992c43e086efac4a2936477495f035d/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/virginia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/de4f98072f3c5d4a7b76a0f2107f343a/AndroidManifest.xml:26:13-58

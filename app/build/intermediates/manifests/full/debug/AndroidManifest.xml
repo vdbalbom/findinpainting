@@ -31,7 +31,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.virginiabalbo.find_in_painting.ZoomOut" />
 
         <meta-data
             android:name="android.support.VERSION"
